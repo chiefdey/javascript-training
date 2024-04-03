@@ -1,24 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <script>
-        let fname=" JOHn .";
-        fname=fname.toLowerCase();
-        fname=fname.replace(".","")
-        fname=fname.trim()
+        let fname = " JOHn .";
+        fname = fname.toLowerCase();
+        fname = fname.replace(".", "")
+        fname = fname.trim()
         console.log(fname);
         //slice ---indexing first variable is always zero
-        let text="denismuriithi"
-        console.log(text[3])
-        slicetext=text.slice(0,6)
+        // let text="denismuriithi"
+        // console.log(text[3])
+        // slicetext=text.slice(0,6)
+        // console.log(slicetext)
+        let sentence_one = "The Dog Breed is German Shepherd"
+        slicetext = sentence_one.slice(8, 23)
         console.log(slicetext)
+        let sentence_two = "Defeats for the Clinton forces, this was her moment of triumph"
+        slice = sentence_two.slice(15,30)
+        console.log(slice)
+        let sent="The lazy dog; ran so fast; it hit the wall."
+        sentc=sent.split(";")
 
-        
+        console.log(sentc)
+        console.log(sentc.length)
+
+
     </script>
 </body>
+
 </html>
