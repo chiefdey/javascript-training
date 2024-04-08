@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        //arrays[]- stores different data types
+        let myarray = ["denis", "james", ["kevin", "brian", ["ramadan"]], 'kim', 100]
+        console.log(myarray)
+        //accessing values in an array
+        console.log(myarray[1])
+        //showing values in an array index i.e m in james
+        console.log(myarray[1][2])
+        //array inside an array
+        console.log(myarray[2][1])
+        console.log(myarray[2][2][0])
+        //modifying arrays
+        myarray[1]=lawd
+        // myarray[2][2][0]=wambui
+        // console.log(myarray)
+        //add values into an array
+        myarray.push("rono")
+        console.log(myarray)
+        //removing last value use pop
+        myarray.pop()
+        console.log(myarray)
+        myarray.copyWithin(0, 1, 4)
+        console.log(myarray)
+        //adding at beginning use .unshift/ removing at begining use shift
+        myarray.unshift('lemon')
+        console.log(myarray)
+        //delete multiple
+        myarray.splice(0, 2)
+        console.log(myarray)
+        //.slice extracts certain part
+        array = myarray.slice([0][2], 3)
+        console.log(array)
+        //.includes(true or false)
+        //concat()join arrays
+
+
+
+
+
+
+    </script>
+</body>
+
+</html>

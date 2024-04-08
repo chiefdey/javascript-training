@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+//Create an array named colors with the following elements: 'red', 'green', 'blue'.
+let colors=['red','green','blue']
+//Given the array fruits, access the second element and change it to 'pear'. Then, print the modified array.
+let fruits=['banana','mango','grapes','orange']
+fruits[1]='pear'
+console.log(fruits)
+//Given the array numbers, determine its length and store it in a variable lengthOfNumbers. Then, print lengthOfNumbers.
+// let numbers=[1,2,3,4,5,6,7]
+// let numberlength=numbers.length()
+// console.log(numberlength)
+//Given the array languages, use the .pop() method to remove the last element from the array. Then, print the modified array.
+let languages=['python','php','html','javascript']
+languages.pop()
+console.log(languages)
+//Assignment 1: Combine Arrays
+let arr1=[10,20]
+let arr2=['hey']
+let combinedarray=arr1.concat(arr2)
+combinedarray.shift()
+console.log(combinedarray)
+// Extract Subarray
+let sourcearray=['a','b','c','d']
+let extractedarray=sourcearray.slice(2,4)
+extractedarray.splice(0,2,'x','y','z')
+console.log(extractedarray)
+
+
+
+
+    </script>
+</body>
+</html>
