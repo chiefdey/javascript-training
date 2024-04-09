@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+    let my_object=[23,'Jane',560,['Lesson', 'Maths',{'currency' : 'KES'}],987,76,'John']
+    //display 1.kes
+    console.log(my_object[3][2].currency)
+    console.log(my_object[2])
+    console.log(my_object[3][1])
+    my_object[3][2].amount=90
+    console.log(my_object)
+    my_object[4]=my_object[4].toString()
+        //split to form an array
+    my_object[4]=my_object[4].split('')
+    //reverse is an array function
+    my_object[4]=my_object[4].reverse()
+    //join to form a string
+    my_object[4]=my_object[4].join('')
+    my_object[4]=Number(my_object[4])
+    console.log(my_object)
+    my_object[6]='jane'
+    console.log(my_object)
+
+
+
+
+   </script> 
+</body>
+</html>

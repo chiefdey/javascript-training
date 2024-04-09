@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let person={
+            'name':"denis",
+            'age':20,
+            'location':"nairobi",
+            'country':"kenya",
+            'name':'muriithi',
+            'address':[500,20,'kenya']
+        }
+        //nested objects
+        person.address1={
+            street:'123 main st',
+            city:'anytown',
+        }
+        //accessing nested objects
+        console.log(person.address1)
+            console.log(person)
+            console.log(person.location)
+            console.log(person['location'])
+            //add value to object
+            person.gender="male"
+            person["occupation"]="tutor"
+            //updating
+            person.location='mombasa'
+            console.log(person)
+            person.address[2]
+            console.log(person)
+            //deleting 
+            delete person.city
+            console.log(person)
+            
+
+    </script>
+</body>
+</html>
