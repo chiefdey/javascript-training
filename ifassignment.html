@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+let number=10
+if (number%2==0){
+    console.log("number is even")
+}else{
+    console.log("number is odd")
+}
+let var1=prompt("enter number")
+let var2=prompt("enter second number")
+let var3=prompt("enter third number")
+if(var1>var2 && var1>var3){
+    //use of (`) and passing 
+    console.log(`${var1}:is the largest`) 
+}
+else if(var2>var1 && var2>var3){
+    console.log(`${var2}:is largest`)
+}else{
+    console.log(`${var3}: is largest`)
+}
+let year=prompt("enter any year")
+if((year%4==0 && year%100!=0)||(year%400==0)){
+    alert("leap year")
+}
+else {
+    alert("not a leap year")
+}
+
+    </script>
+</body>
+</html>

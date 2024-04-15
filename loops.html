@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p id="loops"></p>
+    <script>
+        //js loops perform rep.task based on condition..a loopruns till condition is false
+        //for(intialization;condition;final expression){code}
+        // for (i = 0; i < 100; i++) {
+            // console.log(i)
+        // }
+        //even numbers btwn 200 and 1000
+        let evenmubers=[]
+        for (i=200;i<1000;i++){
+            if(i%2==0){
+                // console.log(i)
+                //displaying in array form
+                evenmubers.push(i)
+            }
+        }
+        console.log(evenmubers)
+        document.getElementById('loops').innerHTML=evenmubers
+        //using .getelementbyId will only display last output coz it takesit as an array
+    </script>
+</body>
+
+</html>

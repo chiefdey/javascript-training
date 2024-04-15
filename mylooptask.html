@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p id="loop"></p>
+    <script>
+        let numbers = []
+        for (num = 0; num < 500; num++) {
+            if (num % 5 == 0 && num % 7 == 0) {
+                numbers.push(num)
+            }
+        }
+        document.getElementById('loop').innerHTML=numbers
+        let num1=[]
+        for(i=20;i<81;i++){
+            console.log(i)
+        }
+        for(i=20;i<81;i++){
+            if(i%7==0){num1.push(i)}
+        }
+        document.getElementById('loop').innerHTML=num1
+        
+
+    </script>
+</body>
+
+</html>
